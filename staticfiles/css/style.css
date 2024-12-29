@@ -1,0 +1,58 @@
+
+.carousel-item img {
+    object-fit: cover;
+    width: 50%;
+    height: 90vh;
+    overflow: hidden;
+    object-position: top;
+}
+
+body {
+  font-family: "Noto Sans",sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-style: normal;
+  
+}
+
+
+.pic-box {
+  position: relative;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.original_price {
+  font-weight:bold;
+  color: gold;
+  
+}
+
+.selling_price {
+  font-weight: bold;
+  background-color:green;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  vertical-align: top;
+  
+}
+
+
+
+.hot {
+  background-color: orangered;
+  color: white;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  display: inline;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  z-index: 10;
+}
