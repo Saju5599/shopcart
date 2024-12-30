@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gql0it2%xb4s3bnt15(7b=c3jgbahvgn+%n4zl4u8*r2!a_u91
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sajuvr.pythonanywhere.com']
+ALLOWED_HOSTS = ['']
 
 
 
@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'sajus_proj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'shopcart',
-        'USER': 'postgres',
-        'PASSWORD': '123456789',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME':os.environ.get('shopcart'),
+        'USER':os.environ.get('postgres'),
+        'PASSWORD':os.environ.get('123456789'),
+        'HOST':os.environ.get('localhost'),
+        'PORT':os.environ.get('5432'),
     }
 }
 
