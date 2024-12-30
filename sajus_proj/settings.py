@@ -79,17 +79,17 @@ WSGI_APPLICATION = 'sajus_proj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':os.environ.get('shopcart'),
-        'USER':os.environ.get('postgres'),
-        'PASSWORD':os.environ.get('123456789'),
-        'HOST':os.environ.get('localhost'),
-        'PORT':os.environ.get('5432'),
+        'NAME':'shopcart',
+        'USER':'postgres',
+        'PASSWORD':'123456789',
+        'HOST':'localhost',
+        'PORT':'5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
