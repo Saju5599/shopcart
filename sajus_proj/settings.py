@@ -28,7 +28,7 @@ DEBUG = True
 
 
 ALLOWED_HOST = os.environ.get('ALLOWED_HOST', 'localhost')
-ALLOWED_HOSTS = [ALLOWED_HOST]
+ALLOWED_HOSTS = [https://shopcart-r80e.onrender.com]
 
 
 
